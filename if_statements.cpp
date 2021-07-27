@@ -2,6 +2,18 @@
 
 using namespace std;
 
+double get_max(double num1, double num2) {
+    double result;
+
+    if (num1 > num2) {
+        result = num1;
+    } else {
+        result = num2;
+    }
+
+    return result;
+}
+
 int main()
 {
     //if statements
@@ -21,5 +33,13 @@ int main()
     } else {
         cout << "You are not tall or a male" << endl;
     }
+
+
+
+    //comparisons
+    double max_num;
+    max_num = get_max(15.5,7.2);
+    cout << "Max: " << max_num << endl;
+
     return 0;
 }
