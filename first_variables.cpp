@@ -11,6 +11,9 @@ int main()
 
     cout << "There once was a man named " << name_of_person << endl;
     cout << "He was " << age << " years old" << endl;
+    
+    name_of_person = "Susan";
+    
     cout << "He liked the name " << name_of_person << endl;
     cout << "And enjoyed being " << age << endl;
     return 0;
